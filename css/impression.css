@@ -1,0 +1,121 @@
+html,
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(235 1% 95% / 1);
+}
+
+#Titre {
+    width: 33vh;
+    padding: 3vh;
+    font-size: 2em;
+    position: absolute;
+    display: none;
+}
+
+#ClickPrint {
+    display: none;
+}
+
+
+/* Ici la taille finale de la feuille pour l'impression! */
+
+#Feuille {}
+
+#Canvas {
+    display: none;
+}
+
+#Image {
+    width: 210mm;
+    height: 297mm;
+    top: 5mm;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(235 1% 95% / 1);
+}
+
+#ClickPrint {
+    display: none;
+}
+
+
+/* Traits coupe en haut */
+
+#TraitDeCoupe1 {
+    width: 40mm;
+    height: 20mm;
+    background-color: black;
+    position: absolute;
+    left: -25mm;
+    top: -2mm;
+}
+
+#TraitDeCoupe2 {
+    width: 20mm;
+    height: 40mm;
+    background-color: black;
+    position: absolute;
+    left: -2mm;
+    top: -25mm;
+}
+
+#TraitDeCoupe3 {
+    width: 40mm;
+    height: 20mm;
+    background-color: black;
+    position: absolute;
+    right: -25mm;
+    top: -2mm;
+}
+
+#TraitDeCoupe4 {
+    width: 20mm;
+    height: 40mm;
+    background-color: black;
+    position: absolute;
+    right: -2mm;
+    top: -25mm;
+}
+
+
+/* Traits coupe en bas */
+
+#TraitDeCoupe5 {
+    width: 40mm;
+    height: 20mm;
+    background-color: black;
+    position: absolute;
+    left: -25mm;
+    bottom: -2mm;
+}
+
+#TraitDeCoupe6 {
+    width: 20mm;
+    height: 40mm;
+    background-color: black;
+    position: absolute;
+    left: -2mm;
+    bottom: -25mm;
+}
+
+#TraitDeCoupe7 {
+    width: 40mm;
+    height: 20mm;
+    background-color: black;
+    position: absolute;
+    right: -25mm;
+    bottom: -2mm;
+}
+
+#TraitDeCoupe8 {
+    width: 20mm;
+    height: 40mm;
+    background-color: black;
+    position: absolute;
+    right: -2mm;
+    bottom: -25mm;
+}
